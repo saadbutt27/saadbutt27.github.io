@@ -1,0 +1,13 @@
+.try {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  border-radius: 50%;
+  margin: 10px;
+  font-size: 50px;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+}
