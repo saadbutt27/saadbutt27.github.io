@@ -1,0 +1,17 @@
+.container {
+    background-color: brown;
+    padding: auto;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+td {
+    padding: 8px;
+}
+input[type="button"] {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border-color: #333;
+}
