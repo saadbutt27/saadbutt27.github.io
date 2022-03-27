@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./game.css">
+    <title>Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="mainHeading">TIC TAC TOE</h1> 
+    <br> <br>
+    <div class="firstDiv">
+        <input type="text" name="" onclick="inputTurnB1(); myFunc()" id="b1" readonly>
+        <input type="text" name="" onclick="inputTurnB2(); myFunc()" id="b2" readonly>
+        <input type="text" name="" onclick="inputTurnB3(); myFunc()" id="b3" readonly> 
+        <br>
+        <input type="text" name="" onclick="inputTurnB4(); myFunc()" id="b4" readonly>
+        <input type="text" name="" onclick="inputTurnB5(); myFunc()" id="b5" readonly>
+        <input type="text" name="" onclick="inputTurnB6()" id="b6" readonly> 
+        <br>
+        <input type="text" name="" onclick="inputTurnB7(); myFunc()" id="b7" readonly>
+        <input type="text" name="" onclick="inputTurnB8(); myFunc()" id="b8" readonly>
+        <input type="text" name="" onclick="inputTurnB9(); myFunc()" id="b9" readonly> 
+        <br>
+
+    </div>
+    <div id="div2">
+        <button type="button" onclick="setEmpty()" class="btn">Replay</button>
+
+        <h4 id="playerTurn"></h4>
+        <h2 id="resultHere"></h2>
+
+        <h3 class="win">Player X Wins</h3> <input type="text" class="wiin" id="forX" readonly>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <h3 class="win">Player 0 Wins</h3> <input type="text" class="wiin" id="for0" readonly>
+        <br> <br>
+        <button id="final" onclick="finalResult()" class="btn">Final Result</button>
+    </div>
+    
+    </div>
+    <script src="./game.js"></script>
+</body>
+</html>
+

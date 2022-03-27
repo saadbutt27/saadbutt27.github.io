@@ -1,0 +1,46 @@
+.container {
+    border: 5px outset gray; 
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: aliceblue;
+    margin: 0 34%;
+    padding: 20px;
+}
+#mainHeading {
+    text-align: center;
+}
+.firstDiv {
+    text-align: center;
+}
+.firstDiv input {
+    width: 62px;
+    height: 52px;
+    margin: 8px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+}
+#div2 {
+    text-align: center;
+    margin: 30px;
+}
+#div2 .win {
+    display: inline-block;
+}
+#div2 .wiin {
+    width: 32px;
+    height: 32px;
+    margin: 8px;
+    border: 1px solid #333;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+}
+#div2 .btn {
+    background-color: #1E90FF;
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+}
