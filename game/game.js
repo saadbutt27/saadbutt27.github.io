@@ -170,7 +170,7 @@ function myFunc() {
         document.getElementById('b8').disabled = true;
         document.getElementById('b9').disabled = true;
         flag = true;
-    } else if (b1 === 'X' && b4 === 'X' && b7 === '7') {
+    } else if (b1 === 'X' && b4 === 'X' && b7 === 'X') {
         document.getElementById('resultHere').innerHTML = "Player X Won";
         countX++;
         document.getElementById('forX').value = countX;
@@ -259,7 +259,7 @@ function myFunc() {
         document.getElementById('b8').disabled = true;
         document.getElementById('b9').disabled = true;
         flag = false;
-    } else if (b1 === '0' && b4 === '0' && b7 === '7') {
+    } else if (b1 === '0' && b4 === '0' && b7 === '0') {
         document.getElementById('resultHere').innerHTML = "Player 0 Won";
         count0++;
         document.getElementById('for0').value = count0;
