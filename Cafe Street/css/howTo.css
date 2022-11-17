@@ -1,0 +1,37 @@
+.howToSec{
+    width: 1170px;
+    height: 370px;
+    position: relative;
+    top: 410px;
+    left: 120px;
+}
+.headingLineHowto{
+    width: 110px;
+    height: 4px;
+    background-color: #ff902b;
+    position: relative;
+    left: 345px;
+    bottom: 40px;
+    border-radius: 12px;
+}
+.howTo-1{
+    text-align: center;
+}
+.howTo-1 > img {
+    margin: 17px 105px;
+} 
+.howTo-1 > #p1{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 36px;
+}
+.howTo-1 > #p2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+#tapImage{
+    position: absolute;
+    left: 98px;
+    top: 190px;
+}

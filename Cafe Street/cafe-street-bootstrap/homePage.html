@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- LINK FOR BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- LINK FOR FONT AWESOME ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="home-container">
+      <!-- NAVBAR STARTED -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./images/logo_coffe.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-3 me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link nav-clr fw-bold fs-5" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-clr fw-bold fs-5" href="#">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-clr fw-bold fs-5" href="#">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-clr fw-bold fs-5" href="#">Delivery</a>
+                  </li>
+                </ul>
+                <form class="d-flex me-4" role="search">
+                  <div class="input-group">
+                    <div class="input-group-text input-search">
+                      <img src="./images/icons_search.png" alt="">
+                    </div>
+                    <input type="search" class="form-control me-2 input-search" placeholder="Capuccino" aria-label="Search">
+                  </div>
+                  <button class="btn" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </svg>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <!-- NAVBAR ENDED -->
+
+          <!-- CONTENT STARTED  -->
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="margin-content">
+                  <h1 class="fw-bolder">Enjoy your <span class="bg-clr-content">coffee</span><br>Before your activity</h1>
+                  <p class="text-secondary">Boost your productivity and build your <br> mood with a glass of coffee in the morning</p>
+                  <div class="d-md-flex">
+                      <button class="btn btn-dark rounded-pill ps-4 pt-2 pe-4 pb-0 myBtn">
+                        <p class="fs-6 fw-bold">Order now &nbsp;&nbsp; <i class="fa-solid fa-cart-shopping bg-clr-btn-cart rounded-circle p-2"></i></p>
+                      </button>
+                    <a href="#menu" class="nav-link link-clr ps-4 pt-2">More menu</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="m-5 position-relative">
+                  <div class="bg-circle-content border rounded-circle me-5">
+                    <div class="capuccino-main-div bg-light rounded-pill p-2">
+                      <div class="capuccino-light-div rounded-pill text-center">
+                          <p class="fw-bolder fs-5 pad-for-para">Capuccino</p>
+                      </div>
+                    </div>
+                    <div class="review-main-div bg-light rounded-pill p-2">
+                      <div class="review-light-div rounded-pill text-center">
+                          <p class="fw-bolder fs-5 pad-for-para">4.8 <i class="fa-solid fa-star star"></i></p>
+                      </div>
+                    </div>
+                    <div class="k-main-div bg-light rounded-pill p-2">
+                      <div class="k-light-div rounded-pill text-center">
+                          <p class="fw-bolder fs-5 pad-for-para">18 K</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+          <!-- CONTENT ENDED  -->
+          
+          <!-- POPULAR PRODUCTS STARTED  -->
+          <div class="container bahir-jao" style="height: 550px;">
+            <h1 class="fw-bolder p-3 popular-heading">Popular Now</h1>
+            <div class="bg-style-products position-relative">
+              <div class="cards-container">
+                <div class="row">
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card-light-group p-2 rounded-2 mt-3 me-5 mb-3 ms-5">
+                      <div class="card-group" style="width: 300px;">
+                        <div class="card">
+                          <img src="./images/vanillaLatte.jpg" class="rounded-2 m-2" alt="">
+                          <div class="card-body">
+                            <div class="card-text">
+                              <div class="row">
+                                <div class="col-7">
+                                  <p class="fs-5 fw-bold">Vanilla Latte</p>
+                                  <button class="btn btn-product pt-1 pe-3 pb-1 ps-3">Hot</button>
+                                  <button class="btn btn-product pt-1 pe-3 pb-1 ps-3">Cold</button>
+                                </div>
+                                <div class="col-5">
+                                  <p  class="fs-5 fw-bold">21 K</p>
+                                  <i class="fa-solid fa-cart-shopping btn fs-5 btn-cart-product rounded-circle" id="cartBtn"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card-light-group p-2 rounded-2 mt-3 me-5 mb-3 ms-5">
+                      <div class="card-group" style="width: 300px;">
+                        <div class="card">
+                          <img src="./images/espresso.jpg" class="rounded-2 m-2" alt="">
+                          <div class="card-body">
+                            <div class="card-text">
+                              <div class="row">
+                                <div class="col-7">
+                                  <p class="fs-5 fw-bold">Espresso</p>
+                                  <button class="btn btn-product pt-1 pe-3 pb-1 ps-3">Hot</button>
+                                  <button class="btn btn-product pt-1 pe-3 pb-1 ps-3">Cold</button>
+                                </div>
+                                <div class="col-5">
+                                  <p  class="fs-5 fw-bold">12 K</p>
+                                  <i class="fa-solid fa-cart-shopping btn fs-5 btn-cart-product rounded-circle" id="cartBtn"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card-light-group p-2 rounded-2 mt-3 me-5 mb-3 ms-5">
+                      <div class="card-group" style="width: 300px;">
+                        <div class="card">
+                          <img src="./images/hazelnut latte.png" class="rounded-2 m-2" alt="">
+                          <div class="card-body">
+                            <div class="card-text">
+                              <div class="row">
+                                <div class="col-7">
+                                  <p class="fs-5 fw-bold">Hazelnut Latte</p>
+                                  <button class="btn btn-product pt-1 pe-3 pb-1 ps-3">Hot</button>
+                                  <button class="btn btn-product pt-1 pe-3 pb-1 ps-3">Cold</button>
+                                </div>
+                                <div class="col-5">
+                                  <p  class="fs-5 fw-bold">23 K</p>
+                                  <i class="fa-solid fa-cart-shopping btn fs-5 btn-cart-product rounded-circle" id="cartBtn"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- POPULAR PRODUCTS ENDED  -->
+
+      </div>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> -->
+
+</body>
+</html>

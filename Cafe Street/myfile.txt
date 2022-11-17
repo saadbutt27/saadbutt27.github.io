@@ -1,0 +1,454 @@
+
+       <!-- MAIN/HOME PAGE -->
+    <button onclick="topFunction()" id="myBtnUp"><i class="fa-solid fa-angle-up"></i></button>
+    <div class="bgProp">
+            <img src="./images/bg_img_bottom.png"class="bgImgBot" alt="">
+            <img src="./images/bg_img_top.png" class="bgImgTop" alt="">
+            <!-- NAVBAR -->
+            <nav class="navbar">
+                <div class="container-fulid">
+                    <div class="row">
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-4">
+                            <img src="./images/logo_coffe.png" class="logo" alt="">
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-8 col-lg-4">
+                            <ul class="navList">
+                                <li><a href="#about" id="li1">About us</a></li>
+                                <li><a href="#product">Product</a></li>
+                                <li><a href="#delivery">Delivery</a></li>
+                            </ul>
+                        </div>
+                        <div id="searchDiv" class="col-lg-4">
+                            <input type="search" class="inputSearch" placeholder="Capuccino">
+                            <img src="./images/icons_cart.png" class="iconCart" alt="">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- NAVBAR -->
+
+            <!-- CONTENT -->
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="content">
+                        <h1>Enjoy your <span>coffee</span><br>Before your activity</h1>
+                        <p>Boost your productivity and build your <br> mood with a glass of coffee in the morning</p>
+                        <div class="contentBottom">
+                            <div class="orderBtn">
+                                <button class="ordBtn">Order now
+                                    <i class="fa-solid fa-cart-shopping btnCart"></i>
+                                </button>
+                            </div>
+                            <a href="#menu" class="contentLink">More menu</a>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class=" col-md-6 col-lg-6">
+                    <div class="circle">
+                        <div class="capMain">
+                            <div class="capLight">
+                                <p>Capuccino</p>
+                            </div>
+                        </div>
+                        <div class="revMain">
+                            <div class="revLight">
+                                <p>4.8 <i class="fa-solid fa-star star"></i></p>
+                            </div>
+                        </div>
+                        <div class="kMain">
+                            <div class="kLight">
+                                <p>18 K</p>
+                            </div>
+                        </div>
+                        <img src="./images/cup.png" class="circleImg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- CONTENT -->
+    </div>
+    <!-- MAIN/HOME PAGE -->
+     <!-- POPULAR PRODUCT -->
+     <div class="container-fluid" id="product">
+        <div class="row">
+            <div class="col-12">
+                <div class="productMain">
+                    <h1 class="heading">Popular Now</h1>
+                    <div class="headingLine"></div>
+                    <div class="backDiv">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                <div class="spacing1">
+                                    <div class="mainCard">
+                                        <div class="lightCard">
+                                            <div class="reviewMain">
+                                                <div class="reviewLight">
+                                                    <p>4.8 <i class="fa-solid fa-star star"></i></p>
+                                                </div>
+                                            </div>
+                                            <img src="./images/vanillaLatte.jpg" class="card2Img" alt="">
+                                            <div class="row">
+                                                <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+                                                    <p class="cardContent">Vanilla Latte</p>
+                                                    <button class="cardBtn">Hot</button>
+                                                    <button class="cardBtn">Cold</button>
+                                                </div>
+                                                <div class="col-4 col-sm-4 col-md-4 col-lg-4">
+                                                    <p  class="cardContent">21 K</p>
+                                                    <i class="fa-solid fa-cart-shopping btnCart" id="cartBtn"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                <div class="spacing2">
+                                    <div class="mainCard">
+                                        <div class="lightCard">
+                                            <div class="reviewMain">
+                                                <div class="reviewLight">
+                                                    <p>4.8 <i class="fa-solid fa-star star"></i></p>
+                                                </div>
+                                            </div>
+                                            <img src="./images/espresso.jpg" class="card2Img" alt="">
+                                            <div class="row">
+                                                <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+                                                    <p class="cardContent">Espresso</p>
+                                                    <button class="cardBtn">Hot</button>
+                                                    <button class="cardBtn">Cold</button>
+                                                </div>
+                                                <div class="col-4 col-sm-4 col-md-4 col-lg-4">
+                                                    <p  class="cardContent">12 K</p>
+                                                    <i class="fa-solid fa-cart-shopping btnCart" id="cartBtn"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                <div class="spacing3">
+                                    <div class="mainCard">
+                                        <div class="lightCard">
+                                            <div class="reviewMain">
+                                                <div class="reviewLight">
+                                                    <p>4.8 <i class="fa-solid fa-star star"></i></p>
+                                                </div>
+                                            </div>
+                                            <img src="./images/hazelnut latte.png" class="card2Img" alt="">
+                                            <div class="row">
+                                                <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+                                                    <p class="cardContent">Hazelnut Latte</p>
+                                                    <button class="cardBtn">Hot</button>
+                                                    <button class="cardBtn">Cold</button>
+                                                </div>
+                                                <div class="col-4 col-sm-4 col-md-4 col-lg-4">
+                                                    <p  class="cardContent">23 K</p>
+                                                    <i class="fa-solid fa-cart-shopping btnCart" id="cartBtn"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- POPULAR PRODUCT -->
+
+    <!-- HOW TO SECTION -->
+    <div id="delivery">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="howToSec">
+                    <h1 class="heading" >How to use delivery service</h1>
+                    <div class="headingLineHowto"></div>
+                    <div class="row">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="howTo-1">
+                                <img src="./images/coffee-cup.png" alt="">
+                                <img src="./images/tap 1.png" id="tapImage" alt="">
+                                <p id="p1">Choose your coffee</p>
+                                <p id="p2">There are 20+ coffees for you</p>
+                            </div>
+                        </div>
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="howTo-1">
+                                <img src="./images/food-truck 1.png" width="159px" height="145px" alt="">
+                                <p id="p1">We deliver it to you</p>
+                                <p id="p2">Choose your delivery services</p>
+                            </div>
+                        </div>
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="howTo-1">
+                                <img src="./images/coffee-cup.png" alt="">
+                                <p id="p1">Enjoy your coffee</p>
+                                <p id="p2">Choose your delivery service</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HOW TO SECTION -->
+
+    <!-- ABOUT SECTION -->
+    <div id="about">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="about">
+                    <div class="row">
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                            <div id="size">
+                                <img src="./images/aboutCoffee.jpg" id="sizeImg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                            <div class="aboutContent">
+                                <h1 class="heading">About us</h1>
+                                <div class="aboutHeadingLine"></div>
+                                <p id="pa1">We provide quality coffee, <br>and ready to deliver.</p>
+                                <p id="pa2">We are a company that makes and distributes <br>delicious drinks. our main product is made with a <br>secret recipe and available in stores worldwide.</p>
+                                <button class="getBtn">Get your coffee</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT SECTION -->
+
+    <!-- MENU SECTION -->
+    <div id="menu">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="menu">
+                    <h1 class="heading">Special menu for you</h1>
+                    <div class="menuHeadingLine"></div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="menuCard">
+                                <div class="reviewMainMenu">
+                                    <div class="reviewLightMenu">
+                                        <p>4.8 <i class="fa-solid fa-star star"></i></p>
+                                    </div>
+                                </div>
+                                <img src="./images/sandwich_product.png" alt="">
+                                <div class="menuContent">
+                                    <div class="row">
+                                        <div class="col-7 col-sm-7 col-md-7 col-lg-7">
+                                            <p class="pm1">Sandwich</p>
+                                            <p id="pm2">Bread with meat and vegetables</p>
+                                        </div>
+                                        <div class="col-5 col-sm-5 col-md-5 col-lg-5">
+                                            <p class="pm1" id="pm1-1-2">12 K</p>
+                                            <i class="fa-solid fa-cart-shopping btnCart" id="menuCartBtn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="menuCard">
+                                <div class="reviewMainMenu">
+                                    <div class="reviewLightMenu">
+                                        <p>4.8 <i class="fa-solid fa-star star"></i></p>
+                                    </div>
+                                </div>
+                                <img src="./images/hotmilk_product.png" alt="">
+                                <div class="menuContent">
+                                    <div class="row">
+                                        <div class="col-7 col-sm-7 col-md-7 col-lg-7">
+                                            <p class="pm1">Hot Milk</p>
+                                            <p id="pm2">Hot milk with less sugar</p>
+                                        </div>
+                                        <div class="col-5 col-sm-5 col-md-5 col-lg-5">
+                                            <p class="pm1" id="pm1-1-2">12 K</p>
+                                            <i class="fa-solid fa-cart-shopping btnCart" id="menuCartBtn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="menuCard">
+                                <div class="reviewMainMenu">
+                                    <div class="reviewLightMenu">
+                                        <p>4.8 <i class="fa-solid fa-star star"></i></p>
+                                    </div>
+                                </div>
+                                <img src="./images/coffeeIcecream_product.png" alt="">
+                                <div class="menuContent">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                            <p class="pm1">Coffee Ice Cream 12 K</p>
+                                            <p id="pm2">Coffee with ice cream vanilla</p>
+                                            <i class="fa-solid fa-cart-shopping btnCart" id="menuCartBtnSpecial"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="menuCard">
+                                <div class="reviewMainMenu">
+                                    <div class="reviewLightMenu">
+                                        <p>4.8 <i class="fa-solid fa-star star"></i></p>
+                                    </div>
+                                </div>
+                                <img src="./images/capucino_product.png" alt="">
+                                <div class="menuContent">
+                                    <div class="row">
+                                        <div class="col-7 col-sm-7 col-md-7 col-lg-7">
+                                            <p class="pm1">Cappucino</p>
+                                            <p id="pm2">Hot Cappucino</p>
+                                        </div>
+                                        <div class="col-5 col-sm-5 col-md-5 col-lg-5">
+                                            <p class="pm1" id="pm1-1-2">12 K</p>
+                                            <i class="fa-solid fa-cart-shopping btnCart" id="menuCartBtn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="menuCard">
+                                <div class="reviewMainMenu">
+                                    <div class="reviewLightMenu">
+                                        <p>4.8 <i class="fa-solid fa-star star"></i></p>
+                                    </div>
+                                </div>
+                                <img src="./images/moccasino_product.png" alt="">
+                                <div class="menuContent">
+                                    <div class="row">
+                                        <div class="col-7 col-sm-7 col-md-7 col-lg-7">
+                                            <p class="pm1">Moccacinno</p>
+                                            <p id="pm2">Hot Moccacinno</p>
+                                        </div>
+                                        <div class="col-5 col-sm-5 col-md-5 col-lg-5">
+                                            <p class="pm1" id="pm1-1-2">12 K</p>
+                                            <i class="fa-solid fa-cart-shopping btnCart" id="menuCartBtn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="menuCard">
+                                <div class="reviewMainMenu">
+                                    <div class="reviewLightMenu">
+                                        <p>4.8 <i class="fa-solid fa-star star"></i></p>
+                                    </div>
+                                </div>
+                                <img src="./images/waffle_product.png" alt="">
+                                <div class="menuContent">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                            <p class="pm1">Waffle Ice Cream 12 K</p>
+                                            <p id="pm2">Waffle with ice cream</p>
+                                            <i class="fa-solid fa-cart-shopping btnCart" id="menuCartBtnSpecial"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MENU SECTION -->
+
+    <!-- TESTIMONIAL SECTION -->
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="testimonial">
+                <div class="row">
+                    <div class="col-5 col-sm-5 col-md-5 col-lg-5">
+                        <div class="testimonialContent">
+                            <h2>What the say about us</h2>
+                            <p>We always provide the best service <br> and always maintain the quality of coffee</p>
+                        </div>
+                    </div>
+                    <div class="col-7 col-sm-7 col-md-7 col-lg-7">
+                        <div class="testimonialImages">
+                            <img src="./images/naura.png" alt="">
+                            <div class="test" id="naura">
+                                <div class="testLight">
+                                    <p id="pt1">Naura <br>
+                                    <span id="pt2">I really love the capuccino, the coffee was really smooth.</span></p>
+                                </div>
+                            </div>
+                            <img src="./images/john.png" alt="">
+                            <div class="testLight1" id="john">
+                                <div class="test1">
+                                    <p id="pt1">John <br>
+                                    <span id="pt2">This coffee shop is very convenient.</span></p>
+                                </div>
+                                <div class="roundHere">
+                                    <div class="round" id="activeImg"></div> <div class="round"></div> <div class="round"></div>
+                                </div>
+                            </div>
+                            <img src="./images/azura.png" alt="">
+                            <div class="testLight2" id="azura">
+                                <div class="test2">
+                                    <p id="pt1">Azura <br>
+                                    <span id="pt2">The coffee menu here is very much.</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TESTIMONIAL SECTION -->
+
+    <!-- NEWSLETTER SECTION -->
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="discount">
+                <div class="discountContent">
+                    <h2>Subscribe to get 50% discount price</h2>
+                    <form action="" method="get" onsubmit="myForm()">
+                        <div class="buttonInp">
+                            <input type="email" id="in" placeholder="Email address" >
+                            <button id="mBtn">Order now</button> 
+                        </div> 
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- NEWSLETTER SECTION -->
+
+    <!-- FOOOTER -->
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                        <p>Created by Saad | &copy; 2022 All rights are reserved.</p>        
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOOTER -->

@@ -1,0 +1,58 @@
+.discount{
+    width: 1170px;
+    height: 392px;
+    position: relative;
+    top: 900px;
+    left: 135px;
+    background-image: url("../images/discountBg.png");
+    background-repeat: no-repeat;
+}
+.discountContent{
+    padding: 130px 290px;
+    
+}
+.discountContent > h2{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #fff;
+}
+.buttonInp {
+    width: 486px;
+    height: 54px;
+    background: #fff;
+    border-radius: 42px;
+    margin: 20px 0px 0px 40px;
+    position: relative;
+}
+#in{
+    margin: 10px 20px;
+    outline: none;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7E7D7A;
+}
+#mBtn{
+    position: absolute;
+    top: 4.5px;
+    right: 8px;
+    width: 138px;
+    height: 44px;
+    cursor: pointer;
+    background-color: #252105;
+    border: none;
+    border-radius: 33px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+}
+#mBtn:hover{
+    background-color: #f4ae26;
+    color: #252105;
+    transition: 0.2s ease-in-out;
+}

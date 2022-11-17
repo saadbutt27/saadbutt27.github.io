@@ -1,0 +1,134 @@
+.productMain{
+    height: 558px;
+    width: 1268px;
+    position: absolute;
+    left: 79px;
+    top: 689px;
+}
+.heading{
+    font-weight: 600;
+    font-size: 32px;
+    padding: 30px;
+
+}
+.headingLine{
+    width: 68px;
+    height: 4px;
+    background-color: #ff902b;
+    position: relative;
+    left: 156px;
+    bottom: 40px;
+    border-radius: 12px;
+}
+.backDiv{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1368px;
+    height: 367px;
+    top: 98px;
+    background: #F9D9AA;
+    border-radius: 64px;
+}
+.spacing {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 40px;
+}
+/* .spacing1{
+    margin-left: 20px;
+}
+.spacing2{
+    margin-left: -10px;
+}
+.spacing3{
+    margin-left: -40px;
+} */
+.mainCard{
+    width: 343px;
+    height: 373px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 12px;
+    position: relative;
+    bottom: 110px;
+    left: 40px;
+}
+.lightCard{
+    width: 357px;
+    height: 387px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
+    border-radius: 12px;
+    box-shadow: 10px 10px 32px rgba(0,0,0,0.25);
+    position: relative;
+    bottom: 10px;
+    left: -7px;
+}
+.reviewMain{
+    width: 62px;
+    height: 26px;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+.reviewLight{
+    width: 70px;
+    height: 34px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    bottom: 14px;
+    left: -14px;
+}
+.reviewLight > p{
+    font-weight: 900;
+}
+.star{
+    color: #FFD057;
+}
+.card2Img{
+    margin: 4px 22px 123px 22px;
+    border-radius: 12px;
+}
+.cardContent{
+    position: relative;
+    top: -110px;
+    left: 30px;
+    font-weight: 900;
+    font-size: 24px;
+    color: #2F2105;
+}
+.cardBtn{
+    position: relative;
+    top: -110px;
+    left: 30px;
+    width: 64px;
+    height: 32px;
+    padding: 3px 10px;
+    border: 1px solid #FF902A;
+    border-radius: 8px; 
+    background-color: #fff;
+    color: #FF902A;
+}
+.cardBtn:hover{
+    border: 1px solid #FFD28F;
+    border-radius: 8px; 
+    color: #FFD28F;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+#cartBtn{
+    position: relative;
+    top: -120px;
+    left: 28px;
+    width: 43px;
+    height: 43px;
+    font-size: 22px;
+    border-radius: 64px;
+    padding: 10px 8px;
+}
