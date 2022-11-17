@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    
+    <link rel="stylesheet" href="cs/all.css">
+    <link rel="stylesheet" href="cs/bootstrap.css">
+    <link rel="stylesheet" href="cs/project.css">
+
+       <style>
+        .owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+  left: 0;
+}
+.owl-nav button.owl-next {
+  right: 0;
+}
+
+.owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+  background-color: #000;
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+span {
+    font-size: 70px;    
+    position: relative;
+    top: -5px;
+}
+.owl-nav button:focus {
+    outline: none;
+}
+h2 {
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+h2 span{
+  color: red;
+  font-size: 100%;
+  position: initial;
+}
+    </style>
+</head>
+<body>
+<div class="start">
+
+ <div class="wow">
+    <!-- nav-bar started -->
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-12">
+        <div class="container">
+          <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="#">
+                  <img class="img-fulid" src="img/images.png" width="150px" height="40" alt="" loading="lazy">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>  
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Fiverr Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Explore</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link" href="#">Become a Seller </a>
+                  </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link" href="#">Sign in</a>
+                  </a>
+                  </li>
+                  <input type="button" value="Join" class="btn btn-success">
+                </ul>
+              </div>
+            </nav>
+          </div>      
+      </div>
+    </div>
+     <!-- nav-bar ended -->
+  </div>
+
+    <!-- slider started -->
+    <div class="row">
+    <div class="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-12">
+    <div id="container carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/i1.jpg" class="d-block w-100" alt="...">
+            <nav class="navbar navbar-light bg-light">
+              <form class="form-inline">
+                <div class="o">
+                  <h1 class="text-white font-size">Find the perfect <i>freelance</i> <br>  services for your business.</h1>
+                  <br>
+                <input class="form-control mr-sm-2 " type="search" size="30px" placeholder="Try building mobile app" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Search</button>
+              </div>
+              </form>
+            </nav>
+            <nav class="navbar navbar-light bg-light">
+            </nav>
+          </div>
+          <div class="carousel-item">
+            <img src="img/i2.jpg" class="d-block w-100" alt="...">
+            <nav class="navbar navbar-light bg-light">
+              <form class="form-inline">
+                <div class="o">
+                  <h1 class="text-white">Find the perfect <i>freelance</i> <br>  services for your business.</h1>
+                  <br>
+                <input class="form-control mr-sm-2 " type="search" size="30px" placeholder="Try building mobile app" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Search</button>
+              </div>
+              </form>
+            </nav>
+            <nav class="navbar navbar-light bg-light">
+            </nav>
+          </div>
+          <div class="carousel-item">
+            <img src="img/i3.jpg" class="d-block w-100" alt="...">
+            <nav class="navbar navbar-light bg-light">
+              <form class="form-inline">
+                <div class="o">
+                  <h1 class="text-white">Find the perfect <i>freelance</i> <br>  services for your business.</h1>
+                  <br>
+                <input class="form-control mr-sm-2 " type="search" placeholder="Try building mobile app" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Search</button>
+              </div>
+              </form>
+            </nav>
+            <nav class="navbar navbar-light bg-light">
+
+            </nav>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+     <!-- slider ended -->
+
+     <!-- smallwebimages started -->
+      <div class="container dd">
+        <div class="row">
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+            </div>
+            <div class="col-auto col-sm-auto col-md-auto col-lg-auto col-xl-auto">
+                <img class="img-fulid" src="img/facebook.31d5f92 (1).png" alt="">
+            </div>
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                <img class="img-fulid" src="img/pandg.8b7310b.png" alt="">
+            </div>
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                <img class="img-fulid" src="img/google.517da09.png" alt="">
+            </div>
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                <img class="img-fulid" src="img/paypal.ec56157.png" alt="">
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+      </div>
+      <!-- smallwebimages started -->
+
+         <!-- services started  -->
+       <div class="container">
+           <h1>Popular Proffessional Services</h1> 
+           <br>
+           <div class="owl-slider">
+            <div id="carousel" class="owl-carousel">
+                <div class="item">
+                    <img class="owl-lazy" data-src="img/logo-design-2x.jpg" alt="">
+                    <p class="t">&nbsp;&nbsp;&nbsp;&nbsp;Build your brand</p>
+                    <h3>&nbsp;&nbsp;Logo Design</h3>
+                </div>
+                <div class="item">
+                    <img class="owl-lazy" data-src="img/voiceover-2x.jpg" alt="">
+                    <p class="t">&nbsp;&nbsp;&nbsp;&nbsp;Share your Message</p>
+                    <h3>&nbsp;&nbsp;Voice Over</h3>
+                    
+                </div>
+                <div class="item">
+                    <img class="owl-lazy" data-src="img/wordpress-2x.jpg" alt="">
+                    <p class="t">&nbsp;&nbsp;&nbsp;&nbsp;Customize your site</p>
+                    <h3>&nbsp;&nbsp;WordPress</h3>
+                </div>
+                <div class="item">
+                    <img class="owl-lazy" data-src="img/seo-2x.jpg" alt="">
+                    <p class="t">&nbsp;&nbsp;&nbsp;&nbsp;Unlock growth online</p>
+                    <h3>&nbsp;&nbsp;SEO</h3>
+                </div>
+                  <div class="item">
+                    <img class="owl-lazy" data-src="img/illustration-2x.jpg" alt="">
+                    <p class="t">&nbsp;&nbsp;&nbsp;&nbsp;Color your dreams</p>
+                    <h3>&nbsp;&nbsp;Illustration</h3>
+                </div>
+                <div class="item">
+                    <img class="owl-lazy" data-src="img/translation-2x.jpg" alt="">
+                    <p class="t">&nbsp;&nbsp;&nbsp;&nbsp;Go global</p>
+                    <h3>&nbsp;&nbsp;Translation</h3>
+                </div>
+            </div>
+            </div>
+             <!-- services ended  -->
+       <br><br><br>
+
+            <!-- freelancetalent started -->
+      <div class="container g">
+        <div class="row">
+             <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <h1>A whole world of <br> freelance talent at your <br> fingertips</h1>
+              <br>
+              <div>
+              <h5> <i class="far fa-check-circle"></i> The best for every budget</h5>
+              </div>
+              <p>Find high-quality services at every price <br> point. No hourly rates, just project-based <br> pricing.</p>
+              <br>
+              <h5> <i class="far fa-check-circle"></i> Quality work done quickly</h5>
+              <p>Find the right freelancer to begin working <br> on your project within minutes.</p>
+              <br>
+              <h> <i class="far fa-check-circle"></i> Protected payments, every time</h5>
+              <p>Always know what you'll pay upfront. Your <br> payment isn't released until you approve <br> the work.</p>
+              <br>
+              <h5> <i class="far fa-check-circle"></i> 24/7 support</h5>
+              <p>Questions? Our round-the-clock support <br> team is available to help anytime, <br> anywhere.</p>
+              <br>
+             </div>
+             <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <img class="image-fulid j" src="img/selling-proposition-still-1400-x1.png" width="450px" alt="">
+                <br><br><br><br><br><br><br><br><br>
+                <img class="image-fulid j" src="img/Business-men-slider.jpg" height="300px" width="450px" alt="">
+            </div>
+        </div>
+      </div>
+      <!-- freelancetalent ended -->
+      <br><br><br>
+
+      <!-- exploreicons started  -->
+      <div class="container m">
+        <br>
+        <h1>Explore the marketplace</h1>
+        <br><br>
+        <div class="row">
+          <div class="col-md-3">
+            <i class="far fa-edit size"></i>
+            <hr style="width: 95px;">
+            <p class="text-center">Graphics & Design</p>
+          </div>
+          <div class="col-md-3">
+            <i class="fab fa-digital-ocean size"></i>
+            <hr style="width: 95px;">
+            <p class="text-center">Digital Marketing</p>
+          </div>
+          <div class="col-md-3">
+            <i class="fas fa-pen-alt size"></i>
+            <hr style="width: 95px;">
+            <p class="text-center">Writting & Translation</p>
+          </div>
+          <div class="col-md-3">
+            <i class="fas fa-film size"></i>
+            <hr style="width: 95px;">
+            <p class="text-center">Video & Animation</p>
+          </div>
+        </div>
+        <br><br>
+        <div class="row">
+          <div class="col-md-3">
+            <i class="fas fa-microphone-alt size"></i>
+            <hr style="width: 95px;">
+            <p class="text-center">Music & Audio</p>
+          </div>
+          <div class="col-md-3">
+            <i class="fas fa-microchip size"></i>
+            <hr style="width: 95px;">
+            <p class="text-center">Programming & Technology</p>
+          </div>
+          <div class="col-md-3">
+            <i class="fas fa-user-tie size"></i>
+            <hr style="width: 95px;">
+            <p class="text-center">Business</p>
+          </div>
+          <div class="col-md-3">
+            <i class="fas fa-life-ring size"></i>
+            <hr style="width: 95px;">
+            <p class="text-center">Lifestyle</p>
+          </div>
+        </div>
+      </div>
+      <!-- exploreicons ended  -->
+      <br><br><br>
+
+      <!-- fiverrbusiness started  -->
+      <div class="container s">
+        <div class="row">
+          <div class="col-md-6">
+            <h2> <img class="img-fulid" src="img/images (1).png" width="130" height="50" alt="" loading="lazy"> business.</h2> 
+            <br>
+            <h1>A business solution <br> designed for <i>teams</i> </h1>
+            <br>
+            <p>Upgrade to a curated experience packed <br> with tools and benefits, dedicated to <br> businesses</p>
+                <h6> <i class="far fa-check-circle"></i>&nbsp; Connect to freelancers with proven business <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; experience</h6>
+                <br>
+                <h6> <i class="far fa-check-circle"></i>&nbsp; Get matched with the perfect talent by a <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; customer success manager</h6>
+                <br>
+                <h6> <i class="far fa-check-circle"></i>&nbsp; Manage teamwork and boost productivity <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; with one powerful workspace</h6>
+                <br>
+                <input type="button" value="Explore Fiverr Business" class="btn btn-success">
+          </div>
+
+          <div class="col-md-6">
+            <img class="img-fulid i" src="img/business-desktop-585-x1.png" width="500px" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- fiverrbusiness ended  -->
+      <br><br>
+
+      <!-- form started  -->
+      <div class="container z">
+      <form>
+        <br>
+        <h1><u>FORM</u></h1>
+        <br>
+        <h5>Kindly fill up the form & sign in to let you know about according to your prefrences.</h5>
+        <div class="row"> 
+          <div class="col-md-6 col-sm-6 col-6">
+              <div class="form-group">
+          <label for="validationCustom01">Name:</label>
+          <input type="text" class="form-control" id="validationCustom01" placeholder="Name">
+              </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-6">
+            <div class="form-group">
+          <label for="validationCustom01">Phone Number:</label>
+          <input type="number" class="form-control" id="validationCustom01" placeholder="Phone no.">
+            </div>
+          </div>
+        </div>
+              
+        <div class="form-row">
+          <div class="form-group col-md-6 col-sm-6 col-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+          </div>
+          <div class="form-group col-md-6 col-sm-6 col-6">
+            <label for="inputPassword4">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6 col-sm-6 col-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="City">
+          </div>
+          <div class="form-group col-md-4 col-sm-4 col-4">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2 col-sm-2 col-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip" placeholder="Zip">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+       <br>
+      <hr style="width: 50%;">
+    </div>
+    <!-- form ended  -->
+    <br><br>
+
+       <!-- fiverr guides started  -->
+      <div class="container n">
+        <h1>Fiverr guides</h1>
+        <br>
+        <div class="row">
+           <div class="col-md-4">
+            <img class="img-fulid k" class="container" src="img/guide-start-online-business-552-x2.png" height="160px" width="280px" alt="">
+            <br><br>
+            <h5>Start an online business and work from home.</h5>
+            <p>A complete guide to starting a small business online.</p>
+           </div>
+           <div class="col-md-4">
+            <img class="img-fulid k" class="container" src="img/guide-digital-marketing-552-x2.png" height="160px" width="280px" alt="">
+            <br><br>
+            <h5>Digital marketing make easy.</h5>
+            <p>A practicl guide to understand what is digital marketing.</p>
+          </div>
+          <div class="col-md-4">
+          <img class="img-fulid k" class="container" src="img/guide-create-a-logo-552-x2.png" height="160px" width="280px" alt="">
+          <br><br>
+            <h5>Create a logo for your business.</h5>
+          <p>A step-by-step guide to create a memorable business logo.</p>
+          </div>
+        </div>
+      </div>
+      <!-- fiverr guides ended  -->
+      <br><br>
+
+      <!-- moustacheman started  -->
+      <div class="container p">
+        <h1>Find the <i>talent</i> needed to get <br> your business <i>growing</i>.</h1>
+        <br><br>
+        <input type="button" value="Get started" class="btn btn-success ">
+        <img class="img-fulid" id="h" src="img/bg-signup-1160-x1.png" alt="">
+      </div>
+      <!-- moustacheman ended  -->
+      <br><br>
+  
+<hr><br>
+
+      <!-- otherreferences started -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-">
+            
+          </div>
+          <div class="col-md-2">
+            <h5>Categories</h5>
+          </div>
+          <div class="col-md-2">
+            <h5>About</h5>
+          </div>
+          <div class="col-md-2">
+            <h5>Support</h5>
+          </div>
+          <div class="col-md-2">
+            <h5>Community</h5>
+          </div>
+          <div class="col-md-2">
+            <h5>More from Fiverr</h5>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-">
+            
+          </div>
+          <div class="col-md-2">
+            <p>Graphics & Design</p>
+          </div>
+          <div class="col-md-2">
+            <p>Careers</p>
+          </div>
+          <div class="col-md-2">
+            <p>Help & Support</p>
+          </div>
+          <div class="col-md-2">
+            <p>Events</p>
+          </div>
+          <div class="col-md-2">
+            <p>Fiverr Business</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-">
+            
+          </div>
+          <div class="col-md-2">
+            <p>Digital Marketing</p>
+          </div>
+          <div class="col-md-2">
+            <p>Press & News</p>
+          </div>
+          <div class="col-md-2">
+            <p>Trust & Safety</p>
+          </div>
+          <div class="col-md-2">
+            <p>Blog</p>
+          </div>
+          <div class="col-md-2">
+            <p>Fiverr Pro</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-">
+            
+          </div>
+          <div class="col-md-2">
+            <p>Writting & Translations</p>
+          </div>
+          <div class="col-md-2">
+            <p>Partnerships</p>
+          </div>
+          <div class="col-md-2">
+            <p>Selliong on Fiverr</p>
+          </div>
+          <div class="col-md-2">
+            <p>Forum</p>
+          </div>
+          <div class="col-md-2">
+            <p>Fiverr Studios</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-">
+            
+          </div>
+          <div class="col-md-2">
+            <p>Vidoe & Animation</p>
+          </div>
+          <div class="col-md-2">
+            <p>Privacy Policy</p>
+          </div>
+          <div class="col-md-2">
+            <p>Buying on Fiverr</p>
+          </div>
+          <div class="col-md-2">
+            <p>Community Standards</p>
+          </div>
+          <div class="col-md-2">
+            <p>Fiverr Logo Maker</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-">
+            
+          </div>
+          <div class="col-md-2">
+            <p>Music & Audio</p>
+          </div>
+          <div class="col-md-2">
+            <p>Intellectual Property Claims</p>
+          </div>
+          <div class="col-md-2">
+            <p></p>
+          </div>
+          <div class="col-md-2">
+            <p>Podcasts </p>
+          </div>
+          <div class="col-md-2">
+            <p>Fiverr Guides</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-">
+            
+          </div>
+          <div class="col-md-2">
+            <p>Programming & Tech</p>
+          </div>
+          <div class="col-md-2">
+            <p>Investor Relations</p>
+          </div>
+          <div class="col-md-2">
+            <p></p>
+          </div>
+          <div class="col-md-2">
+            <p>Affiliates</p>
+          </div>
+          <div class="col-md-2">
+            <p>Get Inspired</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-">
+            
+          </div>
+          <div class="col-md-2">
+            <p>Business</p>
+          </div>
+          <div class="col-md-2">
+            <p></p>
+          </div>
+          <div class="col-md-2">
+            <p></p>
+          </div>
+          <div class="col-md-2">
+            <p>Invite a friend</p>
+          </div>
+          <div class="col-md-2">
+            <p>ClearVoice</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-">
+            
+          </div>
+          <div class="col-md-2">
+            <p>Lifestyle</p>
+          </div>
+          <div class="col-md-2">
+            <p></p>
+          </div>
+          <div class="col-md-2">
+            <p></p>
+          </div>
+          <div class="col-md-2">
+            <p>Become a Seller</p>
+          </div>
+          <div class="col-md-2">
+            <p>And CO</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-">
+            
+          </div>
+          <div class="col-md-2">
+            <p>Sitemap</p>
+          </div>
+          <div class="col-md-2">
+            <p></p>
+          </div>
+          <div class="col-md-2">
+            <p></p>
+          </div>
+          <div class="col-md-2">
+            <p>Fiverr Elevate</p>
+          </div>
+          <div class="col-md-2">
+            <p>Learn</p>
+          </div>
+        </div>
+      </div>
+      <!-- otherreferences ended -->
+      <br><br>
+      <hr>
+
+      <!-- footer started  -->
+      <div class="container">
+        <footer class="foot">
+          <div class="row">
+              <div class="col-md-6">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="l" src="img/images.png" alt="">
+                <br>
+               <p> &copy; Fiverr International Ltd.2020</p>
+              </div>
+              <div class="col-md-6">
+              <div class="row">
+                  <div class="col-md-2">
+                <i class="fab fa-twitter"></i>
+                  </div>
+                  <div class="col-md-2">
+                <i class="fab fa-facebook"></i>
+                  </div>
+                  <div class="col-md-2">
+                <i class="fab fa-linkedin-in"></i>
+                  </div>
+                  <div class="col-md-2">
+                <i class="fab fa-pinterest"></i>
+                  </div>
+                  <div class="col-md-2">
+                <i class="fab fa-instagram"></i>
+                  </div>
+                  <div class="col-md-2">
+                <i class="fas fa-globe"></i>
+                  </div>
+              </div>
+              </div>
+          </div> 
+        </footer>
+        </div>
+        <!-- footer ended  -->
+        <hr>
+
+      </div>
+
+   
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/all.js"></script>
+
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" />
+
+<script>
+  jQuery("#carousel").owlCarousel({
+autoplay: true,
+lazyLoad: true,
+rewind: true,
+margin: 20,
+ /*
+animateOut: 'fadeOut',
+animateIn: 'fadeIn',
+*/
+responsiveClass: true,
+autoHeight: true,
+autoplayTimeout: 7000,
+smartSpeed: 800,
+nav: true,
+responsive: {
+  0: {
+    items: 1
+  },
+
+  600: {
+    items: 3
+  },
+
+  1024: {
+    items: 4
+  },
+
+  1366: {
+    items: 4
+  }
+}
+});
+</script>
+</html>
