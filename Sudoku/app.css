@@ -424,6 +424,9 @@ nav {
         --font-size-lg: 1.5rem;
         --font-size-xl: 2rem;
     }
+    .numbers{
+        margin-bottom: 80px;
+    }
 
     .input-name,
     .btn {
